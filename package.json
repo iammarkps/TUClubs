@@ -1,0 +1,22 @@
+{
+  "name": "tuclubs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "iammark",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-inline-react-svg": "^0.5.4",
+    "babel-plugin-styled-components": "^1.7.1",
+    "express": "^4.16.3",
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-highlighter": "^0.4.3",
+    "styled-components": "^3.4.9"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
